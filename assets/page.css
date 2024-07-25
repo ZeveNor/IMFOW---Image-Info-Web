@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(44, 42, 42);
+  font-family: 'Courget', kanit;
+  font-size: 20px;
+}
+h3{
+  padding: 0;
+  margin: 0;
+}
+h5{
+  padding: 0;
+  margin: 0;
+}
+.page-content{
+  margin: 5px;
+  padding: 70px;
+}
+
+.page-content .container{
+  padding: 70px;
+  height: 310px;
+  border-radius: 30px;
+  margin: 15px 15px;
+  background: rgb(72, 72, 72);
+}
+
+.page-content .img-frame{
+  left: 120px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-content .img-frame img{
+  width: 100%;
+  height: 100%;
+}
+
+.page-content .content{
+  left: 150px;
+  vertical-align: top;
+  padding: 0 40px;
+  display: inline-block;
+}
+
+.page-content .content h3{  
+  color: white;
+  text-align: left;
+}
+
+.page-content .content h5{
+  text-align: left;
+  color: rgb(157, 155, 155);
+  font-size: 15px;
+}
+
+.page-content .content p{
+  color: white;
+  margin-top: 10px;
+  text-align: left;
+  text-indent: 50px;
+  text-wrap:wrap;
+}
+
+.page-content .button{
+  text-align: right;
+  margin: 0 28px;
+}

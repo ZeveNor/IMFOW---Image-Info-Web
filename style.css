@@ -1,0 +1,196 @@
+body{
+  font-family: 'Courget', kanit;
+  font-size: 20px;
+  margin: 0;
+}
+/* remove margin and padding out. */
+p{
+  margin: 0;
+  padding: 0;
+}
+h4{
+  margin: 0;
+  padding: 0;
+}
+a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgb(93, 86, 86);
+}
+/* - */
+
+
+/* Font Initialize Sections */
+@font-face {
+  font-family: 'Reddit';
+  src: url('../fonts/RedditSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../fonts/Lobster-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Courget';
+  src: url('../fonts/Courgette-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url('../fonts/Kanit-Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KanitLight';
+  src: url('../fonts/Kanit-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+/* - */
+
+
+/* Header section */
+header{
+  padding: 15px 15px 0 15px; 
+  background-color: rgb(44, 42, 42);
+}
+
+.header-containers{
+  height: 120px;
+  margin: 0 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0 2px 2px 2px;
+  background-color: #ffffff;
+  vertical-align: middle;
+  border-style: solid;
+  border-color: rgba(111, 79, 255, 0.236);
+  border-width: 0 0 2px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.header-containers .img-frame{
+  width: 400px;
+  height: 100%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+  display: inline-block;
+  background-image: url('./src/20240716_140428.jpg');
+  background-position: center 50%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-containers h1{
+  margin: 32px;
+  color: #3a2f5c;
+  font-weight: 700;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Lobster';
+}
+/* - *
+
+
+/* 3 x 3 content. image colossal */
+.content-container{
+  width: 100%;
+  background-color: rgb(44, 42, 42);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.content{
+  position: relative;
+  left: 400px;
+  padding: 30px;
+  text-align: center;
+  width: 52vw;
+}
+
+.inline{
+  border: #ffffff solid;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 15px;
+  display: inline-block;
+}
+
+.inline h4{
+  padding: 2px 10px; 
+}
+
+.inline p {
+  padding: 0 10px;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.inline .frame{
+  border: solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 300px;
+  width: 270px;
+}
+
+.inline .frame img{
+  width: 100%;
+  height: 100%;
+}
+/* - */
+
+
+/* Footer section */
+.footer-card{
+  padding-top: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(3, 3, 3, 0.786);
+  border-bottom: solid rgb(239, 169, 255) 10px;
+}
+
+.footer-card .footer-box{
+  display: block;
+  height: 70px;
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-card .footer-box .footer-left{
+  float: left !important;
+}
+
+.footer-card .footer-box .footer-right{
+  float: right !important;
+}
+
+.footer-box ul{
+  list-style: none;
+}
+
+.footer-box ul li a{
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.footer-box ul li a:hover{
+  color: #000000;
+}
+
+.footer-box ul li i{
+  font-size: 30px;
+}
